@@ -1,0 +1,47 @@
+{
+    "sequence": [{
+        "intro": "intro_title",
+        "state": "MENU"
+    }, {
+        "state": "STORY",
+        "data": {
+            "index": 0,
+            "nextSound": true
+        }
+    }, {
+        "intro": "intro_game_0",
+        "state": "PLAY",
+        "data": {
+            "index": 0
+        },
+        "outro": "congrats_game_0"
+    }, {
+        "state": "STORY",
+        "data": {
+            "index": 1,
+            "nextSound": false
+        }
+    }, {
+        "intro": "intro_game_1",
+        "state": "PLAY",
+        "data": {
+            "index": 1
+        },
+        "outro": "congrats_game_1"
+    }, {
+        "state": "STORY",
+        "data": {
+            "index": 2,
+            "nextSound": false
+        }
+    }, {
+        "intro": "intro_quiz_0",
+        "state": "QUIZ",
+        "data": {
+            "index": 0
+        },
+        "outro": "congrats_quiz_0"
+    }],
+    "congrats": ["congrats_0", "congrats_1", "congrats_2", "congrats_3"],
+    "wrong": ["wrong_0", "wrong_1", "wrong_2", "wrong_3"]
+}

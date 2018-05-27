@@ -1,0 +1,34 @@
+{
+    "options": {
+        "display": 3,
+        "correct": [
+            "animals_correct_0",
+            "animals_correct_1",
+            "animals_correct_2",
+            "animals_correct_3",
+            "animals_correct_4",
+            "animals_correct_5"
+        ],
+        "wrong": [
+            "animals_wrong_0", 
+            "animals_wrong_1", 
+            "animals_wrong_2", 
+            "animals_wrong_3", 
+            "animals_wrong_4", 
+            "animals_wrong_5", 
+            "animals_wrong_6", 
+            "animals_wrong_7", 
+            "animals_wrong_8", 
+            "animals_wrong_9", 
+            "animals_wrong_10", 
+            "animals_wrong_11", 
+            "animals_wrong_12", 
+            "animals_wrong_13", 
+            "animals_wrong_14", 
+            "animals_wrong_15", 
+            "animals_wrong_16", 
+            "animals_wrong_17"
+        ]
+    },
+    "maxScore": 4
+}

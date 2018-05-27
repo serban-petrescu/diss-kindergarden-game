@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" infinite="0" nextobjectid="33">
+ <tileset firstgid="1" name="game_1_tileset" tilewidth="64" tileheight="64" tilecount="345" columns="15">
+  <image source="../../img/map/game_1_tileset.png" width="960" height="1472"/>
+ </tileset>
+ <layer name="terrain" width="15" height="10">
+  <data encoding="base64">
+   mAAAAJkAAABGAAAARgAAAIgAAACJAAAAiQAAAIoAAABGAAAATAAAAE0AAABNAAAATQAAAE4AAACXAAAARgAAAEYAAABGAAAARgAAAJcAAACYAAAAmAAAAJkAAABGAAAAagAAAGsAAABrAAAAUwAAAF0AAABGAAAAOwAAAEYAAABGAAAARgAAAEYAAABGAAAARgAAAEwAAABNAAAATgAAAEYAAABMAAAATQAAAEIAAABNAAAAOgAAADoAAABMAAAATQAAAE0AAABNAAAATQAAADIAAAAkAAAAJAAAAE0AAAAzAAAAJAAAACQAAAAkAAAAOgAAADoAAABbAAAAXAAAACQAAAA0AAAAJAAAACQAAABiAAAAawAAAGsAAABTAAAAXwAAACQAAAA0AAAAOgAAADoAAABbAAAAQQAAAF8AAABiAAAAawAAADcAAABsAAAAOgAAADoAAABqAAAANwAAADgAAAA5AAAAOgAAADoAAABbAAAAXAAAAGIAAABsAAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAAEcAAABIAAAAOgAAADoAAABqAAAAawAAAGwAAAA6AAAAOgAAADoAAAA6AAAAOgAAAEwAAABNAAAATQAAAE0AAABNAAAAOgAAADoAAABGAAAARgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAAFsAAABcAAAAVwAAAFgAAABYAAAAOgAAADoAAABMAAAATQAAAE0AAABNAAAATQAAAE0AAABNAAAATQAAAEIAAABXAAAAZwAAAGcAAABnAAAA
+  </data>
+ </layer>
+ <layer name="nature" width="15" height="10">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0AAAA+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOwAAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <objectgroup name="collision">
+  <object id="1" x="137.667" y="443">
+   <polygon points="0.5,0.5 32,10.5 69.6667,16.8333 111.333,16.6667 138.667,9.33333 155,-1 165.333,-34.3333 168.333,-54.8333 166.833,-248.333 49.1667,-247.833 27,-240 9.5,-219.333 7,-197.5 5.66667,-109.333"/>
+  </object>
+  <object id="4" x="787.333" y="110">
+   <polygon points="0,0 -1,-25.6667 -18.6667,-34.6667 -20.6667,-110 66.1667,-106 80.4167,-98.5 93.1667,-83 101.167,-61 103.167,-21 101.667,0.25 101.167,15.75 0.666667,17.8333"/>
+  </object>
+  <object id="5" x="766.25" y="77.75">
+   <polygon points="0,0 -109.5,0 -152,-5.25 -181.25,-13 -183.5,-34.5 -167.75,-55.25 -153.5,-67.25 -135,-78 0,-77.5"/>
+  </object>
+  <object id="6" x="854.667" y="331.333">
+   <polygon points="0,0 -0.833333,117 81.3333,121 81.3333,0"/>
+  </object>
+  <object id="9" x="416.75" y="452.25">
+   <polygon points="0,0 -13,13 10,11.25"/>
+  </object>
+  <object id="10" x="29.3333" y="129.667">
+   <polygon points="0,0 -13,12.6667 11.3333,12.6667"/>
+  </object>
+  <object id="11" x="2" y="21.3333">
+   <polygon points="0,0 50.6667,2 87.3333,-2 123.667,-19.3333 0.333333,-19.3333"/>
+  </object>
+  <object id="12" x="260.667" y="0">
+   <polygon points="0,0 0,61 34.6667,73 77.3333,79.3333 120.667,83.3333 164.333,82.3333 203.667,83 234,77 247,72.3333 248,0"/>
+  </object>
+  <object id="13" x="898.545" y="-0.545455">
+   <polygon points="0,0 21.8182,15.2727 38.9091,29.6364 57.2727,30 61.4545,29.2727 61.8182,-0.181818"/>
+  </object>
+  <object id="15" x="0.333333" y="635.625" width="130.292" height="3.375"/>
+  <object id="16" x="0" y="25" width="3.66667" height="609.333"/>
+  <object id="17" x="126.909" y="-0.181818" width="132.545" height="7.63636"/>
+  <object id="18" x="509.75" y="0.25" width="117.75" height="3.25"/>
+  <object id="19" x="957" y="332" width="1.5" height="117.25"/>
+  <object id="20" x="955.5" y="31.75" width="2.75" height="95.25"/>
+  <object id="21" x="844" y="0" width="53.125" height="2.5"/>
+  <object id="25" x="135" y="637">
+   <polygon points="0,0 7.5,-26 31,-48.5 57,-60 121,-61 266.5,-60.5 513,-61 513.5,2"/>
+  </object>
+  <object id="26" x="646" y="572">
+   <polygon points="0,0 0.5,-69 7.5,-93.5 23,-107 43.5,-119.5 67,-123.5 312,-121.5 315,67 1,65"/>
+  </object>
+  <object id="27" x="308.5" y="397">
+   <polygon points="-2.27273,-0.181818 28.5,-8 46.5,-18 68.5,-64.5 69.5,-203.5 -3.5,-203.5"/>
+  </object>
+  <object id="28" x="380" y="328">
+   <polygon points="0,0 150.5,1.5 168,-11.5 179,-34.5 186,-57 70,-136.5 0.5,-135"/>
+  </object>
+  <object id="29" x="454" y="187">
+   <polygon points="0,0 8,-27.5 42.5,-55.5 81,-58 143,-53.5 168.5,-31 179.5,-5 180.5,3.5"/>
+  </object>
+  <object id="30" x="566.5" y="270">
+   <polygon points="0,0 68,-79.5 -113,-80"/>
+  </object>
+  <object id="31" x="571" y="265.5">
+   <polygon points="0,0 153.5,5 142,-75.5 63,-74"/>
+  </object>
+  <object id="32" x="723" y="277.667">
+   <polygon points="0,0 13.6667,48.3333 132.333,53.3333 235.5,54.3333 234.333,-149 37,-148.333 20.3333,-140.333 5.33333,-128 -6,-114 -9,-95.3333"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="entities">
+  <object id="22" name="player" x="770.33" y="351.333" width="80" height="90">
+   <properties>
+    <property name="frameheight" value="90"/>
+    <property name="framewidth" value="80"/>
+    <property name="image" value="ship"/>
+   </properties>
+  </object>
+  <object id="24" name="collectable" x="180" y="10" width="66" height="75">
+   <properties>
+    <property name="frameheight" value="100"/>
+    <property name="framewidth" value="88"/>
+    <property name="image" value="north_pole_sign"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

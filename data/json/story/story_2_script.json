@@ -1,0 +1,9 @@
+{
+    "track": "track_story_2",
+    "objects": [{
+        "name": "location",
+        "x": 400,
+        "y": 325,
+        "glow_start": 9000
+    }]
+}

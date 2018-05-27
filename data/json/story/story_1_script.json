@@ -1,0 +1,24 @@
+{
+    "track": "track_story_1",
+    "objects": [{
+        "name": "animals_sprites_0",
+        "x": 175,
+        "y": 200,
+        "glow_start": 9000
+    }, {
+        "name": "animals_sprites_1",
+        "x": 325,
+        "y": 400,
+        "glow_start": 30000
+    }, {
+        "name": "animals_sprites_2",
+        "x": 500,
+        "y": 200,
+        "glow_start": 10000
+    }, {
+        "name": "animals_sprites_3",
+        "x": 600,
+        "y": 400,
+        "glow_start": 31000
+    }]
+}
