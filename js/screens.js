@@ -88,6 +88,26 @@
         return button;
     }
 
+    function menuButton(onClick) {
+        var image = me.loader.getImage("button_menu");
+        var button = new (me.GUI_Object.extend({
+            init: function() {
+                this._super(me.GUI_Object, "init", [10, 10, {
+                    image: image,
+                }]);
+            },
+
+            onClick: function() {
+                game.reset();
+                if (onClick) {
+                    onClick();
+                }
+            }
+        }))();
+        button.anchorPoint.set(0, 0);
+        return button;
+    }
+
     game.PlayScreen = me.ScreenObject.extend({
         onResetEvent: function() {
             game.data.current.info = me.loader.getJSON("game_" + game.data.current.index + "_info");
@@ -97,6 +117,9 @@
     
         start: function(name) {
             me.levelDirector.loadLevel(name);
+            setTimeout(function() {
+                me.game.world.addChild(menuButton(), 100);
+            }, 500);
             me.game.repaint();
         }
     });
@@ -189,6 +212,7 @@
                 button.enable();
                 this.buttons.push(button);
             }
+            me.game.world.addChild(menuButton(), 100);
         },
 
         clear: function() {
@@ -212,6 +236,7 @@
 
         playStory: function(audio, nextSound) {
             this.addObjects();
+            me.game.world.addChild(menuButton(me.audio.stop.bind(me.audio, audio)), 100);
             game.playSound(audio)
                 .then(function() {
                     var button = glowingButton("button_next_sprite", me.game.viewport.width / 2, 

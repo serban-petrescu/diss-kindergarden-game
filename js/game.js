@@ -55,6 +55,11 @@ var game = {
         return this.playSound(this.data.wrong[Math.floor(Math.random() * this.data.wrong.length)]);
     },
 
+    reset: function() {
+        game.data.index = 0;
+        me.state.change(me.state.MENU);
+    },
+
     next: function() {
         var outro = game.data.sequence[game.data.index] ? game.data.sequence[game.data.index].outro : "";
         game.data.index = (game.data.index + 1) % game.data.sequence.length;
